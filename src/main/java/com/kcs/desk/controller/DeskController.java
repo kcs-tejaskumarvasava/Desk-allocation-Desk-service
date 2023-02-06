@@ -44,6 +44,7 @@ public class DeskController {
 	@GetMapping("/getAllDesk")
 	public  ResponseVO<List<DeskDto>> getDesk(){
 		System.out.println("test");
+		System.out.println("test");
 		return deskService.getAllDesk();
 		
 	}
