@@ -50,6 +50,7 @@ public class DeskController {
 	
 	@GetMapping("/getDeskByid")
 	public DeskDto getDeskById(@RequestParam ("id") Long id) {
+	System.out.println("Testing the jenkins status with pipeline");
 		return deskService.getDesk(id);
 	}
 }
